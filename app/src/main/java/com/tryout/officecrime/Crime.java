@@ -31,6 +31,11 @@ public class Crime {
         return this.Id;
     }
 
+    @Override
+    public String toString() {
+        return Title;
+    }
+
     public Date getDate(){
         return date;
     }
