@@ -51,6 +51,5 @@ public class Crime {
     public void setSolved(Boolean solve){
         this.solved = solve;
     }
-    // BAL
 
 }

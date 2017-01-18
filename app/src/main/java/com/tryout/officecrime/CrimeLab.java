@@ -26,7 +26,7 @@ public class CrimeLab {
     }
 
     public static CrimeLab getCrimeLab(Context context) {
-        if(crimeLab.equals(null)){
+        if(crimeLab == null){
             crimeLab = new CrimeLab(context.getApplicationContext());
         }
         return crimeLab;
